@@ -1,0 +1,11 @@
+name: "bank"
+
+on:
+    workflow_dispatch :
+
+jobs:
+    bank:
+        name: "version-actions"
+        runs-on: ubuntu-latest
+        steps:
+            - run: echo "Hello world"
